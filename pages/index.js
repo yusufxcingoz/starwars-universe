@@ -1,8 +1,5 @@
-import { useState, useEffect } from "react";
-import { render } from "react-dom";
 import Link from "next/link";
-import People from "../components/People";
-import Planets from "../components/Planets";
+
 import "tailwindcss/tailwind.css";
 
 function HomePage() {

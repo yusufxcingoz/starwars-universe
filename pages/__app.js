@@ -1,6 +1,4 @@
 import "tailwindcss/tailwind.css";
-import Header from "../components/header";
-import { Auth0Provider } from "@auth0/auth0-react";
 
 function MyApp({ Component, pageProps }) {
   return (

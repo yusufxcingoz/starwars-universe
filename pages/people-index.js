@@ -1,14 +1,11 @@
 import { useState, useEffect } from "react";
-import { render } from "react-dom";
+
 import People from "../components/People";
-import Planets from "../components/Planets";
-import Link from "next/link";
 
 function HomePage() {
   const [people, setPeople] = useState([]);
 
   const [pageNumber, setPageNumber] = useState(1);
-  const [pageZero, setPageZero] = useState(0);
 
   useEffect(() => {
     async function fetchPeople() {
