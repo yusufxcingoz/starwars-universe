@@ -2,19 +2,13 @@ import "tailwindcss/tailwind.css";
 
 function MyApp({ Component, pageProps }) {
   return (
-    <Auth0Provider
-      domain="dev-q962xtov.eu.auth0.com"
-      clientId="Nn7jG3gZpxAwtmPGmUE79iB37fcXtQDa"
-      redirectUri={process.env.NEXT_PUBLIC_URL}
-    >
-      <div className="antialiased">
-        <Header />
+    <div className="antialiased">
+      <Header />
 
-        <main className="mt-6 mb-20">
-          <Component {...pageProps} />
-        </main>
-      </div>
-    </Auth0Provider>
+      <main className="mt-6 mb-20">
+        <Component {...pageProps} />
+      </main>
+    </div>
   );
 }
 
