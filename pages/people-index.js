@@ -9,7 +9,7 @@ function HomePage() {
 
   useEffect(() => {
     async function fetchPeople() {
-      let res = await fetch("http://swapi.dev/api/people/?page=" + pageNumber);
+      let res = await fetch("https://swapi.dev/api/people/?page=" + pageNumber);
       let data = await res.json();
       setPeople(data.results);
     }
