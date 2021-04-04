@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-
+import "tailwindcss/tailwind.css";
 import People from "../components/People";
 
 function HomePage() {

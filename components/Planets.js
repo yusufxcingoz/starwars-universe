@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-
+import "tailwindcss/tailwind.css";
 export default function People({ data }) {
   return (
     <div>
